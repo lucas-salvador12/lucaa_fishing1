@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucaa_fishing - Loja de Produtos de Pesca</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 1em;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            width: 80%;
+            margin: 2em auto;
+        }
+        section {
+            margin-bottom: 2em;
+            padding: 1em;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        h2 {
+            color: #333;
+        }
+        .product-list {
+            list-style-type: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1em;
+        }
+        .product-list li {
+            margin: 1em 0;
+            padding: 1em;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .product-list img {
+            max-width: 100%;
+            height: auto;
+        }
+        .product-list h3 {
+            margin: 0.5em 0;
+        }
+        .product-list p {
+            margin: 0.5em 0;
+        }
+        .product-list button {
+            padding: 0.7em;
+            border: none;
+            background-color: #333;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .product-list button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lucaa_fishing - Loja de Produtos de Pesca</h1>
+    </header>
+    <nav>
+        <a href="#home">Página Inicial</a>
+        <a href="#carretilhas">Carretilhas</a>
+        <a href="#morinetes">Morinetes</a>
+        <a href="#linhas">Linhas</a>
+        <a href="#anzol">Anzol</a>
+        <a href="#boias">Boias</a>
+        <a href="#varas">Varas</a>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2>Página Inicial</h2>
+            <p>Bem-vindo à Lucaa_fishing! Explore nossa ampla gama de produtos de pesca de alta qualidade.</p>
+        </section>
+        <section id="carretilhas">
+            <h2>Carretilhas</h2>
+            <ul class="product-list">
+                <li>
+                    <img src="carretilha1.jpg" alt="Carretilha 1">
+                    <h3>Carretilha 1</h3>
+                    <p>Descrição da Carretilha 1.</p>
+                    <button>Comprar</button>
+                </li>
+                <li>
+                    <img src="carretilha2.jpg" alt="Carretilha 2">
+                    <h3>Carretilha 2</h3>
+                    <p>Descrição da Carretilha 2.</p>
+                    <button>Comprar</button>
+                </li>
+            </ul>
+        </section>
+        <section id="morinetes">
+            <h2>Morinetes</h2>
+            <ul class="product-list">
+                <li>
+                    <img src="morinete1.jpg" alt="Morinete 1">
+                    <h3>Morinete 1</h3>
+                    <p>Descrição do Morinete 1.</p>
+                    <button>Comprar</button>
+                </li>
+                <li>
+                    <img src="morinete2.jpg" alt="Morinete 2">
+                    <h3>Morinete 2</h3>
+                    <p>Descrição do Morinete 2.</p>
+                    <button>Comprar</button>
+                </li>
+            </ul>
+        </section>
+        <section id="linhas">
+            <h2>Linhas</h2>
+            <ul class="product-list">
+                <li>
+                    <img src="linha1.jpg" alt="Linha 1">
+                    <h3>Linha 1</h3>
+                    <p>Descrição da Linha 1.</p>
+                    <button>Comprar</button>
+                </li>
+                <li>
+                    <img src="linha2.jpg" alt="Linha 2">
+                    <h3>Linha 2</h3>
+                    <p>Descrição da Linha 2.</p>
+                    <button>Comprar</button>
+                </li>
+            </ul>
+        </section>
+        <section id="anzol">
+            <h2>Anzol</h2>
+            <ul class="product-list">
+                <li>
+                    <img src="anzol1.jpg" alt="Anzol 1">
+                    <h3>Anzol 1</h3>
+                    <p>Descrição do Anzol 1.</p>
+                    <button>Comprar</button>
+                </li>
+                <li>
+                    <img src="anzol2.jpg" alt="Anzol 2">
+                    <h3>Anzol 2</h3>
+                    <p>Descrição do Anzol 2.</p>
+                    <button>Comprar</button>
+                </li>
+            </ul>
+        </section>
+        <section id="boias">
+            <h2>Boias</h2>
+            <ul class="product-list">
+                <li>
+                    <img src="boia1.jpg" alt="Boia 1">
+                    <h3>Boia 1</h3>
+                    <p>Descrição da Boia 1.</p>
+                    <button>Comprar</button>
+                </li>
+                <li>
+                    <img src="boia2.jpg" alt="Boia 2">
+                    <h3>Boia 2</h3>
+                    <p>Descrição da Boia 2.</p>
+                    <button>Comprar</button>
+                </li>
+            </ul>
+        </section>
+        <section id="varas">
+            <h2>Varas</h2>
+            <ul class="product-list">
+                <li>
+                    <img src="vara1.jpg" alt="Vara 1">
+                    <h3>Vara 1</h3>
+                    <p>Descrição da Vara 1.</p>
+                    <button>Comprar</button>
+                </li>
+                <li>
+                    <img src="vara2.jpg" alt="Vara 2">
+                    <h3>Vara 2</h3>
+                    <p>Descrição da Vara 2.</p>
+                    <button>Comprar</button>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Lucaa_fishing. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
